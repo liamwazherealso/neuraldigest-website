@@ -1,13 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+  background-color: #121212;
+  color: #ffffff;
 }
 
 header {
-  background-color: #333;
-  color: white;
+  background-color: #1e1e1e;
+  color: #a0a0a0;
   text-align: center;
   padding: 1rem;
+  border-bottom: 1px solid #2d2d2d;
 }
 
 main {
@@ -15,12 +18,13 @@ main {
 }
 
 a {
-  color: #333;
+  color: #1db954;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #555;
+  color: #1ed760;
   text-decoration: underline;
 }
 
@@ -31,4 +35,6 @@ a:hover {
 
 #articleList li {
   margin-bottom: 0.5rem;
+  border-bottom: 1px solid #2d2d2d;
+  padding-bottom: 0.5rem;
 }
